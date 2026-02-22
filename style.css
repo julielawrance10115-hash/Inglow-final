@@ -1,0 +1,165 @@
+body{
+font-family: Arial;
+margin:0;
+background:#fff5f1;
+}
+
+header{
+background:#f6b8a9;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#f4a6a0;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+margin:10px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.card{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.card{
+max-width:1100px;
+margin:auto;
+}
+
+nav a:hover{
+border-bottom:2px solid #c44536;
+}
+
+a{
+color:#c44536;
+font-weight:500;
+}
+.hero{
+width:100%;
+max-height:420px;
+overflow:hidden;
+}
+.hero img{
+width:100%;
+height:auto;
+max-height:420px;
+object-fit:contain;
+display:block;
+margin:auto;
+}
+
+.hero{
+position:relative;
+text-align:center;
+}
+
+.hero-cta{
+position:absolute;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+background:rgba(255,255,255,0.85);
+padding:15px 25px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+/* BUY BUTTON */
+.buy-btn{
+display:inline-block;
+background:#ff6f91;
+color:white;
+padding:10px 18px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+margin-top:10px;
+transition:0.3s;
+}
+
+.buy-btn:hover{
+background:#e85d7d;
+}
+/* REVIEWS SECTION STYLE */
+.review-card{
+background:linear-gradient(180deg,#fff1ec,#ffe5dc);
+padding:25px;
+border-radius:18px;
+margin:15px 0;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.review-title{
+text-align:center;
+margin-bottom:20px;
+}
+/* CONTACT UI */
+.contact-box{
+max-width:650px;
+margin:auto;
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+.contact-box input,
+.contact-box textarea{
+width:100%;
+padding:14px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #ddd;
+font-family:inherit;
+}
+
+.contact-btn{
+background:#ff6f91;
+color:#fff;
+border:none;
+padding:12px 18px;
+border-radius:8px;
+font-weight:600;
+cursor:pointer;
+width:100%;
+}
+
+.contact-btn:hover{
+background:#e85d7d;
+}
+
+.social-btn{
+display:inline-block;
+margin:6px 0 15px;
+color:#c44536;
+font-weight:600;
+text-decoration:none;
+}
+
+.page-bg{
+background:linear-gradient(to bottom,#fff8f2,#fdebdc);
+padding:50px 20px;
+min-height:80vh;
+}
+
+.page-box{
+background:#ffffff;
+max-width:1100px;
+margin:auto;
+padding:30px;
+border-radius:16px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+footer{
+background:#f6b8a9;
+text-align:center;
+padding:15px;
+}
