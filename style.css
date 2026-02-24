@@ -42,18 +42,16 @@ font-weight:500;
 }
 .hero{
 width:100%;
-padding:40px 0;
-background:#f6e7e4;   /* soft background for empty space */
-text-align:center;
+height:85vh;
+position:relative;
+overflow:hidden;
 }
 
 .hero img{
 width:100%;
-height:auto;          /* ⭐ main fix — shows full image */
-display:block;
-margin:auto;
+height:100%;
+object-fit:cover;
 }
-
 nav{
 position:relative;
 z-index:2;
@@ -180,6 +178,7 @@ text-align:center;
 padding:15px;
 
 }
+
 
 
 
