@@ -40,36 +40,35 @@ a{
 color:#8b2c24;
 font-weight:500;
 }
-
 .hero{
 width:100%;
-min-height:420px;   /* flexible height */
-overflow:hidden;
+min-height:520px;        /* ⭐ more space */
 position:relative;
-text-align:center;
 display:flex;
 align-items:center;
 justify-content:center;
+background:#f6e7e4;
+padding:40px 0;
 }
 
 .hero img{
 width:100%;
-height:100%;
-object-fit:contain;   /* ⭐ main fix */
+max-height:520px;
+object-fit:contain;      /* full image visible */
 display:block;
 }
-
-/* CTA box */
 .hero-cta{
 position:absolute;
-bottom:30px;
+bottom:40px;     /* was 30 */
 left:50%;
 transform:translateX(-50%);
-background:rgba(255,255,255,0.85);
-padding:15px 25px;
-border-radius:14px;
+background:rgba(255,255,255,0.9);
+padding:18px 28px;
+border-radius:16px;
 box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
+
+
 /* BUY BUTTON */
 .buy-btn{
 display:inline-block;
@@ -178,5 +177,6 @@ text-align:center;
 padding:15px;
 
 }
+
 
 
